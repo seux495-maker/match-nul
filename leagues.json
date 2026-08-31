@@ -1,0 +1,24 @@
+{
+  "_comment": "Liste des championnats suivis. 'name'/'country' servent à résoudre 'api_id' la toute première fois (recherche par nom auprès d'API-Football) ; une fois résolu, l'id est mis en cache ici et n'est plus jamais re-cherché. Si un championnat reste introuvable après le premier passage (api_id resté à null, message 'Introuvable côté API' dans les logs), corrige 'name' ou 'country' pour qu'ils correspondent exactement au nom utilisé par API-Football (voir SETUP.md).",
+  "leagues": [
+    { "id": "fr-l1", "name": "Ligue 1", "country": "France", "zone": "europe", "api_id": null },
+    { "id": "fr-l2", "name": "Ligue 2", "country": "France", "zone": "europe", "api_id": null },
+    { "id": "es-l1", "name": "La Liga", "country": "Spain", "zone": "europe", "api_id": null },
+    { "id": "es-l2", "name": "Segunda División", "country": "Spain", "zone": "europe", "api_id": null },
+    { "id": "it-l1", "name": "Serie A", "country": "Italy", "zone": "europe", "api_id": null },
+    { "id": "it-l2", "name": "Serie B", "country": "Italy", "zone": "europe", "api_id": null },
+    { "id": "en-l1", "name": "Premier League", "country": "England", "zone": "europe", "api_id": null },
+    { "id": "en-l2", "name": "Championship", "country": "England", "zone": "europe", "api_id": null },
+    { "id": "gr-l1", "name": "Super League", "country": "Greece", "zone": "europe", "api_id": null },
+    { "id": "tr-l1", "name": "Super Lig", "country": "Turkey", "zone": "europe", "api_id": null },
+    { "id": "pt-l1", "name": "Primeira Liga", "country": "Portugal", "zone": "europe", "api_id": null },
+    { "id": "pt-l2", "name": "Liga Portugal 2", "country": "Portugal", "zone": "europe", "api_id": null },
+    { "id": "co-l1", "name": "Primera A", "country": "Colombia", "zone": "south-america", "api_id": null },
+    { "id": "ec-l1", "name": "Liga Pro", "country": "Ecuador", "zone": "south-america", "api_id": null },
+    { "id": "ar-l1", "name": "Liga Profesional Argentina", "country": "Argentina", "zone": "south-america", "api_id": null },
+    { "id": "uy-l1", "name": "Primera División", "country": "Uruguay", "zone": "south-america", "api_id": null },
+    { "id": "py-l1", "name": "Division Profesional", "country": "Paraguay", "zone": "south-america", "api_id": null },
+    { "id": "pe-l1", "name": "Liga 1", "country": "Peru", "zone": "south-america", "api_id": null },
+    { "id": "ve-l1", "name": "Liga FUTVE", "country": "Venezuela", "zone": "south-america", "api_id": null }
+  ]
+}

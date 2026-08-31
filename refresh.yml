@@ -1,0 +1,55 @@
+name: Rafraîchir les championnats
+
+# 4 passages/jour, choisis pour tomber dans la fenêtre 13h-00h heure de
+# Paris (celle où se jouent la majorité des matchs des championnats
+# suivis) tout en restant sous le quota gratuit d'API-Football (100
+# requêtes/jour) : le tout premier passage de la journée (UTC) résout la
+# journée en cours de chaque championnat (2 requêtes/championnat), les 3
+# suivants ne font que rafraîchir les résultats de cette journée déjà
+# connue (1 requête/championnat) — soit 19×2 + 19×3 = 95 requêtes au pire,
+# sous la marge de sécurité de fetch.py (90, avant même le quota réel de
+# 100). Cron GitHub Actions fonctionne en UTC sans ajustement heure d'été/
+# hiver : les horaires ci-dessous visent 13h/16h30/20h/23h à Paris en hiver
+# et dérivent d'environ 1h en été (14h/17h30/21h/00h) — acceptable pour un
+# tableau de bord consulté à la demande, pas une alerte temps réel.
+on:
+  schedule:
+    - cron: "0 12 * * *"
+    - cron: "30 15 * * *"
+    - cron: "0 19 * * *"
+    - cron: "0 22 * * *"
+  workflow_dispatch: {} # permet de déclencher un rafraîchissement manuel depuis l'onglet Actions de GitHub, pour tester sans attendre le prochain horaire
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-championnats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Récupérer les résultats (API-Football)
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python fetch.py
+
+      - name: Publier si quelque chose a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/championnats.json leagues.json
+          if git diff --staged --quiet; then
+            echo "Rien de nouveau, pas de commit."
+          else
+            git commit -m "Rafraîchissement automatique des championnats"
+            git push
+          fi

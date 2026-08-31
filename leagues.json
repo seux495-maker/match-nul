@@ -1,0 +1,24 @@
+{
+  "_comment": "Liste des championnats suivis, lus sur les pages publiques de betexplorer.com. 'slug' = le chemin après https://www.betexplorer.com/football/ (ex. 'france/ligue-1' pour https://www.betexplorer.com/football/france/ligue-1/results/). Contrairement à une API, ces adresses peuvent changer si le championnat est renommé ou restructuré d'une saison à l'autre (ça arrive régulièrement en Amérique du Sud, ex. l'Argentine avec ses tournois Apertura/Clausura à noms de sponsors) : si un championnat n'affiche plus rien dans data/championnats.json (message 'Aucune journée détectée' dans le journal du robot), va vérifier son adresse actuelle sur betexplorer.com/football/<pays>/ et corrige 'slug' ci-dessous.",
+  "leagues": [
+    { "id": "fr-l1", "name": "Ligue 1", "country": "France", "zone": "europe", "slug": "france/ligue-1" },
+    { "id": "fr-l2", "name": "Ligue 2", "country": "France", "zone": "europe", "slug": "france/ligue-2" },
+    { "id": "es-l1", "name": "La Liga", "country": "Spain", "zone": "europe", "slug": "spain/laliga" },
+    { "id": "es-l2", "name": "Segunda División", "country": "Spain", "zone": "europe", "slug": "spain/laliga2" },
+    { "id": "it-l1", "name": "Serie A", "country": "Italy", "zone": "europe", "slug": "italy/serie-a" },
+    { "id": "it-l2", "name": "Serie B", "country": "Italy", "zone": "europe", "slug": "italy/serie-b" },
+    { "id": "en-l1", "name": "Premier League", "country": "England", "zone": "europe", "slug": "england/premier-league" },
+    { "id": "en-l2", "name": "Championship", "country": "England", "zone": "europe", "slug": "england/championship" },
+    { "id": "gr-l1", "name": "Super League", "country": "Greece", "zone": "europe", "slug": "greece/super-league" },
+    { "id": "tr-l1", "name": "Süper Lig", "country": "Turkey", "zone": "europe", "slug": "turkey/super-lig" },
+    { "id": "pt-l1", "name": "Primeira Liga", "country": "Portugal", "zone": "europe", "slug": "portugal/liga-portugal" },
+    { "id": "pt-l2", "name": "Liga Portugal 2", "country": "Portugal", "zone": "europe", "slug": "portugal/liga-portugal-2" },
+    { "id": "co-l1", "name": "Primera A", "country": "Colombia", "zone": "south-america", "slug": "colombia/primera-a" },
+    { "id": "ec-l1", "name": "LigaPro", "country": "Ecuador", "zone": "south-america", "slug": "ecuador/liga-pro" },
+    { "id": "ar-l1", "name": "Liga Profesional", "country": "Argentina", "zone": "south-america", "slug": "argentina/liga-profesional", "_note": "Nom/format qui change selon les saisons (tournois à noms de sponsors, ex. 'Torneo Betano') — le plus susceptible de nécessiter une correction de 'slug' en cours de saison." },
+    { "id": "uy-l1", "name": "Liga AUF Uruguaya", "country": "Uruguay", "zone": "south-america", "slug": "uruguay/liga-auf-uruguaya" },
+    { "id": "py-l1", "name": "Copa de Primera", "country": "Paraguay", "zone": "south-america", "slug": "paraguay/copa-de-primera" },
+    { "id": "pe-l1", "name": "Liga 1", "country": "Peru", "zone": "south-america", "slug": "peru/liga-1" },
+    { "id": "ve-l1", "name": "Liga FUTVE", "country": "Venezuela", "zone": "south-america", "slug": "venezuela/liga-futve" }
+  ]
+}

@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Rafraîchit data/championnats.json en lisant les pages publiques de
@@ -140,22 +141,17 @@ def analyze_league(slug):
         return None
 
     if r_results is not None and r_results == r_fixtures:
-        # Journée en cours : une partie déjà jouée (results), le reste à
-        # venir (fixtures) — c'est le cas qui nous intéresse le plus.
         current = r_results
         played_rows = [m for m in results_rounds.get(current, []) if m["played"]]
         upcoming_rows = [m for m in fixtures_rounds.get(current, []) if not m["played"]]
         matches_played = len(played_rows)
         matches_total = matches_played + len(upcoming_rows)
     elif r_results is not None:
-        # Dernière journée connue côté résultats, apparemment terminée
-        # (rien de cette journée encore dans "fixtures").
         current = r_results
         played_rows = [m for m in results_rounds.get(current, []) if m["played"]]
         matches_played = len(played_rows)
         matches_total = matches_played
     else:
-        # Rien encore joué : on retombe sur la prochaine journée à venir.
         current = r_fixtures
         matches_played = 0
         matches_total = len(fixtures_rounds.get(current, []))
@@ -184,7 +180,7 @@ def main():
         print(f"→ {league['name']} ({league['country']})")
         try:
             info = analyze_league(league["slug"])
-        except Exception as e:  # on ne laisse jamais un championnat planter tout le run
+        except Exception as e:
             print(f"  Erreur inattendue : {e}", file=sys.stderr)
             info = None
 

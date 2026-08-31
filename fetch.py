@@ -48,7 +48,16 @@ def api_get(path, params, api_key):
         try:
             with urllib.request.urlopen(req, timeout=25) as resp:
                 calls_used += 1
-                return json.loads(resp.read().decode("utf-8"))
+                data = json.loads(resp.read().decode("utf-8"))
+                # API-Football répond souvent en HTTP 200 même en cas de
+                # souci (mauvais paramètre, restriction de plan, saison non
+                # couverte...) : le vrai motif est alors dans "errors", pas
+                # dans le code HTTP. On l'affiche pour ne jamais avoir à
+                # deviner pourquoi une "response" est vide.
+                errors = data.get("errors")
+                if errors:
+                    print(f"  ⚠ API-Football répond avec une erreur sur {path} {params} : {errors}", file=sys.stderr)
+                return data
         except urllib.error.HTTPError as e:
             print(f"  HTTP {e.code} sur {path} {params} : {e.read().decode(errors='replace')[:200]}", file=sys.stderr)
             if e.code == 429:
@@ -66,7 +75,7 @@ def current_season_guess():
     # 2025 = 2025-2026 en Europe, où l'essentiel des championnats de cette
     # liste démarrent entre juin et août). On bascule sur la nouvelle année
     # de saison à partir de juillet.
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.UTC)
     return now.year if now.month >= 7 else now.year - 1
 
 
@@ -175,7 +184,7 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(
             {
-                "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "generated_at": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "leagues": results,
             },
             f,

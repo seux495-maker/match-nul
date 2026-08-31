@@ -76,7 +76,7 @@
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "api_id": null
+      "api_id": 94
     },
     {
       "id": "pt-l2",
@@ -90,28 +90,28 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "api_id": null
+      "api_id": 239
     },
     {
       "id": "ec-l1",
       "name": "Liga Pro",
       "country": "Ecuador",
       "zone": "south-america",
-      "api_id": null
+      "api_id": 242
     },
     {
       "id": "ar-l1",
       "name": "Liga Profesional Argentina",
       "country": "Argentina",
       "zone": "south-america",
-      "api_id": null
+      "api_id": 128
     },
     {
       "id": "uy-l1",
       "name": "Primera División",
       "country": "Uruguay",
       "zone": "south-america",
-      "api_id": null
+      "api_id": 268
     },
     {
       "id": "py-l1",

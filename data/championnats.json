@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T19:16:33Z",
+  "generated_at": "2026-09-01T22:12:11Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -76,9 +76,9 @@
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "3",
-      "matches_total": 12,
-      "matches_played": 12,
+      "round": "4",
+      "matches_total": 10,
+      "matches_played": 8,
       "draws": 2
     },
     {
@@ -156,10 +156,10 @@
       "name": "Copa de Primera",
       "country": "Paraguay",
       "zone": "south-america",
-      "round": "7",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 2
+      "round": "8",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pe-l1",
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 0
     },
     {

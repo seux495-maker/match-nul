@@ -54,11 +54,26 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-ROUND_RE = re.compile(r"^(\d+)\.\s*Round$", re.IGNORECASE)
-SCORE_RE = re.compile(r"\[(\d+):(\d+)")
+# Recherche "N. Round" n'importe où dans le texte de la ligne (pas une
+# correspondance exacte de toute la ligne) : plus tolérant si la ligne
+# contient un espace insécable, une icône, ou du texte additionnel autour.
+ROUND_RE = re.compile(r"(\d+)\.\s*Round\b", re.IGNORECASE)
+# Le score peut être écrit "2:0" tout simplement, ou entouré de crochets
+# ("[2:0]") selon les pages — les deux formes sont acceptées.
+SCORE_RE = re.compile(r"\[?(\d+):(\d+)\]?")
 
 # Pause entre deux requêtes : on reste un visiteur poli, pas une rafale.
 POLITE_DELAY = 1.2
+# Pause additionnelle entre deux championnats (en plus de POLITE_DELAY
+# entre les 2 pages d'un même championnat) : limite le rythme global pour
+# éviter les erreurs 429 (trop de requêtes) constatées lors des premiers
+# essais.
+BETWEEN_LEAGUES_DELAY = 2.0
+# Nom du championnat (slug) sur lequel imprimer un diagnostic détaillé
+# (contenu brut des premières lignes de la page) dans le journal — utile
+# tant que la lecture de betexplorer.com n'est pas encore fiable pour
+# tous les championnats. Mettre à None pour désactiver.
+DEBUG_SLUG = "france/ligue-1"
 
 
 def fetch_html(url):
@@ -69,7 +84,10 @@ def fetch_html(url):
                 return resp.read().decode("utf-8", errors="replace")
         except urllib.error.HTTPError as e:
             print(f"  HTTP {e.code} sur {url}", file=sys.stderr)
-            if e.code in (429, 503):
+            if e.code == 429:
+                time.sleep(6 + attempt * 4)  # backoff plus long : 6s, 10s, 14s
+                continue
+            if e.code == 503:
                 time.sleep(3)
                 continue
             return None
@@ -77,6 +95,41 @@ def fetch_html(url):
             print(f"  Erreur réseau sur {url} : {e}", file=sys.stderr)
             time.sleep(3)
     return None
+
+
+def debug_dump(slug):
+    """Imprime dans le journal la structure brute réellement reçue pour
+    un championnat témoin, pour diagnostiquer un format de page inattendu.
+    Ne fait jamais planter le run (tout est protégé par un try/except)."""
+    try:
+        html = fetch_html(f"{BASE_URL}/{slug}/results/")
+        if not html:
+            print(f"[DEBUG] Page introuvable pour {slug}.", file=sys.stderr)
+            return
+        soup = BeautifulSoup(html, "html.parser")
+        trs = soup.find_all("tr")
+        print(
+            f"[DEBUG] {slug}: {len(html)} caractères HTML reçus, "
+            f"{len(trs)} balise(s) <tr> trouvée(s).",
+            file=sys.stderr,
+        )
+        shown = 0
+        for tr in trs:
+            text = tr.get_text(" ", strip=True)
+            if not text:
+                continue
+            print(f"[DEBUG]   tr = {text!r}", file=sys.stderr)
+            shown += 1
+            if shown >= 20:
+                break
+        if shown == 0:
+            print(
+                f"[DEBUG]   Aucune ligne <tr> avec du texte — début du HTML brut : "
+                f"{html[:800]!r}",
+                file=sys.stderr,
+            )
+    except Exception as e:
+        print(f"[DEBUG] Erreur pendant le diagnostic : {e}", file=sys.stderr)
 
 
 def parse_rounds(html):
@@ -98,15 +151,20 @@ def parse_rounds(html):
         if not text:
             continue
 
-        m = ROUND_RE.match(text)
-        if m:
-            current_round = int(m.group(1))
-            if current_round not in rounds:
-                rounds[current_round] = []
-                order.append(current_round)
+        # Une ligne de match contient toujours " - " entre les deux
+        # équipes ; on ne cherche un en-tête de journée que si ce n'en
+        # est pas une, pour éviter une confusion improbable entre les
+        # deux (ex. un nom d'équipe qui contiendrait "Round").
+        if " - " not in text:
+            m = ROUND_RE.search(text)
+            if m:
+                current_round = int(m.group(1))
+                if current_round not in rounds:
+                    rounds[current_round] = []
+                    order.append(current_round)
             continue
 
-        if current_round is None or " - " not in text:
+        if current_round is None:
             continue
 
         score_m = SCORE_RE.search(text)
@@ -178,6 +236,10 @@ def main():
     with open(CONFIG_PATH, encoding="utf-8") as f:
         config = json.load(f)
 
+    if DEBUG_SLUG:
+        debug_dump(DEBUG_SLUG)
+        time.sleep(BETWEEN_LEAGUES_DELAY)
+
     results = []
 
     for league in config["leagues"]:
@@ -187,6 +249,8 @@ def main():
         except Exception as e:  # on ne laisse jamais un championnat planter tout le run
             print(f"  Erreur inattendue : {e}", file=sys.stderr)
             info = None
+
+        time.sleep(BETWEEN_LEAGUES_DELAY)
 
         if not info:
             print(

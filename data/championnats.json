@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:12:11Z",
+  "generated_at": "2026-09-02T11:58:58Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -26,9 +26,9 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "round": "3",
+      "round": "4",
       "matches_total": 10,
-      "matches_played": 10,
+      "matches_played": 0,
       "draws": 0
     },
     {
@@ -127,8 +127,8 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 5
     },
     {
@@ -136,9 +136,9 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "27",
-      "matches_total": 8,
-      "matches_played": 8,
+      "round": "28",
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 1
     },
     {
@@ -157,9 +157,9 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 2,
-      "matches_played": 1,
-      "draws": 0
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 1
     },
     {
       "id": "pe-l1",

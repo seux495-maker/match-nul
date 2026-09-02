@@ -1,0 +1,301 @@
+{
+  "generated_at": "2026-09-02T11:58:58Z",
+  "leagues": [
+    {
+      "id": "fr-l1",
+      "name": "Ligue 1",
+      "country": "France",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2
+      ],
+      "matches_played": 18,
+      "draws": 7,
+      "draw_pct": 38.9
+    },
+    {
+      "id": "fr-l2",
+      "name": "Ligue 2",
+      "country": "France",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "matches_played": 36,
+      "draws": 14,
+      "draw_pct": 38.9
+    },
+    {
+      "id": "es-l1",
+      "name": "La Liga",
+      "country": "Spain",
+      "zone": "europe",
+      "rounds_recorded": [],
+      "matches_played": 0,
+      "draws": 0,
+      "draw_pct": null
+    },
+    {
+      "id": "es-l2",
+      "name": "Segunda División",
+      "country": "Spain",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3
+      ],
+      "matches_played": 33,
+      "draws": 8,
+      "draw_pct": 24.2
+    },
+    {
+      "id": "it-l1",
+      "name": "Serie A",
+      "country": "Italy",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2
+      ],
+      "matches_played": 20,
+      "draws": 1,
+      "draw_pct": 5.0
+    },
+    {
+      "id": "it-l2",
+      "name": "Serie B",
+      "country": "Italy",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2
+      ],
+      "matches_played": 20,
+      "draws": 4,
+      "draw_pct": 20.0
+    },
+    {
+      "id": "en-l1",
+      "name": "Premier League",
+      "country": "England",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2
+      ],
+      "matches_played": 20,
+      "draws": 4,
+      "draw_pct": 20.0
+    },
+    {
+      "id": "en-l2",
+      "name": "Championship",
+      "country": "England",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3
+      ],
+      "matches_played": 36,
+      "draws": 11,
+      "draw_pct": 30.6
+    },
+    {
+      "id": "gr-l1",
+      "name": "Super League",
+      "country": "Greece",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2
+      ],
+      "matches_played": 13,
+      "draws": 2,
+      "draw_pct": 15.4
+    },
+    {
+      "id": "tr-l1",
+      "name": "Süper Lig",
+      "country": "Turkey",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3
+      ],
+      "matches_played": 27,
+      "draws": 6,
+      "draw_pct": 22.2
+    },
+    {
+      "id": "pt-l1",
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "matches_played": 33,
+      "draws": 9,
+      "draw_pct": 27.3
+    },
+    {
+      "id": "pt-l2",
+      "name": "Liga Portugal 2",
+      "country": "Portugal",
+      "zone": "europe",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "matches_played": 36,
+      "draws": 8,
+      "draw_pct": 22.2
+    },
+    {
+      "id": "co-l1",
+      "name": "Primera A",
+      "country": "Colombia",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "matches_played": 59,
+      "draws": 21,
+      "draw_pct": 35.6
+    },
+    {
+      "id": "ec-l1",
+      "name": "LigaPro",
+      "country": "Ecuador",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matches_played": 216,
+      "draws": 50,
+      "draw_pct": 23.1
+    },
+    {
+      "id": "ar-l1",
+      "name": "Liga Profesional",
+      "country": "Argentina",
+      "zone": "south-america",
+      "rounds_recorded": [],
+      "matches_played": 0,
+      "draws": 0,
+      "draw_pct": null
+    },
+    {
+      "id": "uy-l1",
+      "name": "Liga AUF Uruguaya",
+      "country": "Uruguay",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "matches_played": 31,
+      "draws": 9,
+      "draw_pct": 29.0
+    },
+    {
+      "id": "py-l1",
+      "name": "Copa de Primera",
+      "country": "Paraguay",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "matches_played": 42,
+      "draws": 10,
+      "draw_pct": 23.8
+    },
+    {
+      "id": "pe-l1",
+      "name": "Liga 1",
+      "country": "Peru",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "matches_played": 63,
+      "draws": 14,
+      "draw_pct": 22.2
+    },
+    {
+      "id": "ve-l1",
+      "name": "Liga FUTVE",
+      "country": "Venezuela",
+      "zone": "south-america",
+      "rounds_recorded": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "matches_played": 42,
+      "draws": 8,
+      "draw_pct": 19.0
+    }
+  ]
+}

@@ -52,7 +52,30 @@ jobs:
           git add data/championnats.json data/historique.json leagues.json
           if git diff --staged --quiet; then
             echo "Rien de nouveau, pas de commit."
-          else
-            git commit -m "Rafraîchissement automatique des championnats"
-            git push
+            exit 0
           fi
+          git commit -m "Rafraîchissement automatique des championnats"
+
+          # Si un commit manuel (ex. édité sur GitHub pendant que ce run
+          # tournait) a avancé main entre-temps, "git push" est rejeté
+          # ("fetch first") : ce n'est pas une erreur de fetch.py, juste une
+          # collision de timing. On rebase alors par-dessus le commit
+          # distant et on réessaie, jusqu'à 3 fois — sans risque de conflit
+          # réel puisque ce commit ne touche jamais que les fichiers de
+          # données générés (fetch.py ne modifie ni lui-même, ni les
+          # fichiers que tu édites à la main).
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejeté (tentative $attempt/3) — rebase par-dessus le commit distant, puis nouvel essai."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "Rebase impossible (conflit réel, cas très rare) : abandon de ce run. Le prochain passage programmé republiera les données à jour."
+              exit 1
+            fi
+            sleep 3
+          done
+          echo "Échec du push après 3 tentatives."
+          exit 1

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:16:16Z",
+  "generated_at": "2026-09-02T22:13:03Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -77,9 +77,9 @@
       "country": "England",
       "zone": "europe",
       "round": "4",
-      "matches_total": 10,
-      "matches_played": 8,
-      "draws": 2
+      "matches_total": 12,
+      "matches_played": 12,
+      "draws": 4
     },
     {
       "id": "gr-l1",
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "28",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 1
     },
     {
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 3,
-      "matches_played": 2,
+      "matches_total": 4,
+      "matches_played": 4,
       "draws": 1
     },
     {

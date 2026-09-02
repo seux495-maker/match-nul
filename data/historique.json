@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T11:58:58Z",
+  "generated_at": "2026-09-02T12:07:18Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -34,10 +34,14 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "rounds_recorded": [],
-      "matches_played": 0,
-      "draws": 0,
-      "draw_pct": null
+      "rounds_recorded": [
+        1,
+        2,
+        3
+      ],
+      "matches_played": 30,
+      "draws": 7,
+      "draw_pct": 23.3
     },
     {
       "id": "es-l2",

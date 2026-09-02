@@ -27,6 +27,13 @@ mise en page de betexplorer.com, qui peut changer sans préavis (à la
 différence d'une API officielle). Si un jour beaucoup de championnats
 d'un coup ne remontent plus rien, c'est le premier endroit à vérifier —
 voir SETUP.md.
+
+En plus de data/championnats.json (journée en cours), ce script tient à
+jour data/historique.json : le cumul, journée terminée après journée
+terminée, du nombre de matchs joués et de matchs nuls sur la saison en
+cours, par championnat. Chaque journée n'est comptée qu'une seule fois
+(son numéro est mémorisé dans "rounds_recorded" une fois ajoutée au
+cumul), donc relancer le script plusieurs fois par jour ne fausse rien.
 """
 
 import datetime
@@ -42,6 +49,7 @@ from bs4 import BeautifulSoup
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "leagues.json")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "championnats.json")
+HISTORIQUE_PATH = os.path.join(os.path.dirname(__file__), "data", "historique.json")
 BASE_URL = "https://www.betexplorer.com/football"
 
 # Un User-Agent de navigateur courant : certains sites bloquent les
@@ -72,8 +80,10 @@ BETWEEN_LEAGUES_DELAY = 2.0
 # Nom du championnat (slug) sur lequel imprimer un diagnostic détaillé
 # (contenu brut des premières lignes de la page) dans le journal — utile
 # tant que la lecture de betexplorer.com n'est pas encore fiable pour
-# tous les championnats. Mettre à None pour désactiver.
-DEBUG_SLUG = "france/ligue-1"
+# tous les championnats. Mettre à None pour désactiver (la lecture
+# fonctionne désormais, donc désactivé par défaut — remettre un slug ici
+# si un championnat particulier recommence à poser problème).
+DEBUG_SLUG = None
 
 
 def fetch_html(url):
@@ -224,23 +234,73 @@ def analyze_league(slug):
         if m["played"] and m["home_goals"] == m["away_goals"]
     )
 
+    # Journées terminées disponibles sur cette page pour le cumul
+    # historique : toutes celles vues dans "results" SAUF la journée en
+    # cours si elle est encore en partie à venir (elle est alors
+    # incomplète et sera recomptée correctement une fois terminée, à un
+    # prochain passage). betexplorer liste "results" du plus récent au
+    # plus ancien, donc results_order[1:] sont par construction déjà
+    # terminées (plus anciennes que la plus récente) ; results_order[0]
+    # ne l'est que si elle ne correspond pas à la journée en cours côté
+    # "fixtures".
+    in_progress_round = current if (r_results is not None and r_results == r_fixtures) else None
+    completed_rounds = {}
+    for r in results_order:
+        if r == in_progress_round:
+            continue
+        matches = [m for m in results_rounds.get(r, []) if m["played"]]
+        if not matches:
+            continue
+        completed_rounds[r] = {
+            "matches": len(matches),
+            "draws": sum(1 for m in matches if m["home_goals"] == m["away_goals"]),
+        }
+
     return {
         "round": current,
         "matches_total": matches_total,
         "matches_played": matches_played,
         "draws": draws,
+        "completed_rounds": completed_rounds,
     }
+
+
+def load_historique_state():
+    """Relit le cumul déjà connu (s'il existe) pour repartir de là plutôt
+    que de tout recompter à zéro à chaque run. Tolérant : un fichier
+    absent, corrompu ou d'un ancien format donne simplement un cumul vide
+    pour le(s) championnat(s) concerné(s), sans faire planter le run."""
+    try:
+        with open(HISTORIQUE_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+    state = {}
+    for entry in data.get("leagues", []):
+        league_id = entry.get("id")
+        if not league_id:
+            continue
+        state[league_id] = {
+            "rounds_recorded": list(entry.get("rounds_recorded", [])),
+            "matches_played": entry.get("matches_played", 0),
+            "draws": entry.get("draws", 0),
+        }
+    return state
 
 
 def main():
     with open(CONFIG_PATH, encoding="utf-8") as f:
         config = json.load(f)
 
+    historique_state = load_historique_state()
+
     if DEBUG_SLUG:
         debug_dump(DEBUG_SLUG)
         time.sleep(BETWEEN_LEAGUES_DELAY)
 
     results = []
+    historique_results = []
 
     for league in config["leagues"]:
         print(f"→ {league['name']} ({league['country']})")
@@ -251,6 +311,43 @@ def main():
             info = None
 
         time.sleep(BETWEEN_LEAGUES_DELAY)
+
+        # Cumul historique : on part de ce qui était déjà enregistré pour
+        # ce championnat, et on n'ajoute que les journées terminées pas
+        # encore vues (chaque numéro de journée n'est compté qu'une
+        # fois). Ça marche même si ce run-ci échoue à récupérer la page
+        # (on republie simplement le cumul précédent tel quel).
+        prev = historique_state.get(
+            league["id"], {"rounds_recorded": [], "matches_played": 0, "draws": 0}
+        )
+        rounds_recorded = set(prev["rounds_recorded"])
+        matches_played_hist = prev["matches_played"]
+        draws_hist = prev["draws"]
+
+        if info:
+            for round_num, stats in info.get("completed_rounds", {}).items():
+                if round_num in rounds_recorded:
+                    continue
+                rounds_recorded.add(round_num)
+                matches_played_hist += stats["matches"]
+                draws_hist += stats["draws"]
+
+        historique_results.append(
+            {
+                "id": league["id"],
+                "name": league["name"],
+                "country": league["country"],
+                "zone": league["zone"],
+                "rounds_recorded": sorted(rounds_recorded),
+                "matches_played": matches_played_hist,
+                "draws": draws_hist,
+                "draw_pct": (
+                    round(draws_hist / matches_played_hist * 100, 1)
+                    if matches_played_hist
+                    else None
+                ),
+            }
+        )
 
         if not info:
             print(
@@ -277,12 +374,20 @@ def main():
         )
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    generated_at = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(
-            {
-                "generated_at": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "leagues": results,
-            },
+            {"generated_at": generated_at, "leagues": results},
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+        f.write("\n")
+
+    with open(HISTORIQUE_PATH, "w", encoding="utf-8") as f:
+        json.dump(
+            {"generated_at": generated_at, "leagues": historique_results},
             f,
             ensure_ascii=False,
             indent=2,

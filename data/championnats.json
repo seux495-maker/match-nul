@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-03T19:15:10Z",
+  "generated_at": "2026-09-03T22:12:19Z",
   "leagues": [
     {
       "id": "fr-l1",
       "name": "Ligue 1",
       "country": "France",
       "zone": "europe",
-      "round": "2",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 3
+      "round": "3",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "fr-l2",
@@ -26,10 +26,10 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "round": "3",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 0
+      "round": "6",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 1
     },
     {
       "id": "es-l2",
@@ -116,9 +116,9 @@
       "name": "Liga Portugal 2",
       "country": "Portugal",
       "zone": "europe",
-      "round": "4",
+      "round": "5",
       "matches_total": 9,
-      "matches_played": 9,
+      "matches_played": 0,
       "draws": 0
     },
     {
@@ -137,9 +137,9 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "28",
-      "matches_total": 5,
-      "matches_played": 5,
-      "draws": 1
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 2
     },
     {
       "id": "uy-l1",
@@ -177,8 +177,8 @@
       "country": "Venezuela",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 3,
-      "matches_played": 2,
+      "matches_total": 5,
+      "matches_played": 4,
       "draws": 1
     }
   ]

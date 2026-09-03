@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:13:03Z",
+  "generated_at": "2026-09-03T12:15:21Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -126,10 +126,10 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "8",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 5
+      "round": "16",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "ec-l1",
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "28",
-      "matches_total": 3,
-      "matches_played": 3,
+      "matches_total": 5,
+      "matches_played": 5,
       "draws": 1
     },
     {
@@ -157,9 +157,9 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 4,
-      "matches_played": 4,
-      "draws": 1
+      "matches_total": 5,
+      "matches_played": 5,
+      "draws": 2
     },
     {
       "id": "pe-l1",
@@ -176,10 +176,10 @@
       "name": "Liga FUTVE",
       "country": "Venezuela",
       "zone": "south-america",
-      "round": "6",
-      "matches_total": 7,
-      "matches_played": 7,
-      "draws": 3
+      "round": "7",
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 1
     }
   ]
 }

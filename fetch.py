@@ -211,17 +211,30 @@ def analyze_league(slug):
         # Journée en cours : une partie déjà jouée (results), le reste à
         # venir (fixtures) — c'est le cas qui nous intéresse le plus.
         current = r_results
-        played_rows = [m for m in results_rounds.get(current, []) if m["played"]]
-        upcoming_rows = [m for m in fixtures_rounds.get(current, []) if not m["played"]]
+        results_for_round = results_rounds.get(current, [])
+        played_rows = [m for m in results_for_round if m["played"]]
+        not_yet_played_in_fixtures = [m for m in fixtures_rounds.get(current, []) if not m["played"]]
         matches_played = len(played_rows)
-        matches_total = matches_played + len(upcoming_rows)
+        # Total = toutes les lignes vues pour cette journée sur les 2 pages
+        # (pas seulement celles dont le score a été reconnu) : le nombre de
+        # matchs d'une journée est une donnée fixe (nombre d'équipes ÷ 2),
+        # il ne doit pas varier selon qu'un score a été correctement extrait
+        # ou non. On ne garde de "fixtures" que les lignes pas encore
+        # jouées : les lignes déjà jouées y apparaissent aussi côté
+        # "results", inutile de les compter deux fois.
+        matches_total = len(results_for_round) + len(not_yet_played_in_fixtures)
     elif r_results is not None:
         # Dernière journée connue côté résultats, apparemment terminée
         # (rien de cette journée encore dans "fixtures").
         current = r_results
-        played_rows = [m for m in results_rounds.get(current, []) if m["played"]]
+        results_for_round = results_rounds.get(current, [])
+        played_rows = [m for m in results_for_round if m["played"]]
         matches_played = len(played_rows)
-        matches_total = matches_played
+        # Idem ci-dessus : le total compte toutes les lignes de la journée,
+        # pas seulement matches_played — sinon un score non reconnu (format
+        # inhabituel, match arrêté, etc.) ferait artificiellement baisser le
+        # total affiché au lieu de laisser matches_played < matches_total.
+        matches_total = len(results_for_round)
     else:
         # Rien encore joué : on retombe sur la prochaine journée à venir.
         current = r_fixtures

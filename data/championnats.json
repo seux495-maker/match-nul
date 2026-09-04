@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:12:19Z",
+  "generated_at": "2026-09-04T12:14:21Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -116,9 +116,9 @@
       "name": "Liga Portugal 2",
       "country": "Portugal",
       "zone": "europe",
-      "round": "5",
+      "round": "4",
       "matches_total": 9,
-      "matches_played": 0,
+      "matches_played": 9,
       "draws": 0
     },
     {
@@ -126,10 +126,10 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "16",
-      "matches_total": 1,
-      "matches_played": 1,
-      "draws": 0
+      "round": "7",
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 2
     },
     {
       "id": "ec-l1",
@@ -137,9 +137,9 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "28",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 2
+      "matches_total": 8,
+      "matches_played": 8,
+      "draws": 3
     },
     {
       "id": "uy-l1",
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 5,
-      "matches_played": 5,
+      "matches_total": 6,
+      "matches_played": 6,
       "draws": 2
     },
     {
@@ -177,9 +177,9 @@
       "country": "Venezuela",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 5,
-      "matches_played": 4,
-      "draws": 1
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 3
     }
   ]
 }

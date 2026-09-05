@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:11:54Z",
+  "generated_at": "2026-09-05T12:13:29Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -116,9 +116,9 @@
       "name": "Liga Portugal 2",
       "country": "Portugal",
       "zone": "europe",
-      "round": "4",
-      "matches_total": 9,
-      "matches_played": 9,
+      "round": "5",
+      "matches_total": 2,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -127,7 +127,7 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 10,
+      "matches_total": 8,
       "matches_played": 7,
       "draws": 2
     },
@@ -136,20 +136,20 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "28",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 3
+      "round": "29",
+      "matches_total": 4,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "uy-l1",
       "name": "Liga AUF Uruguaya",
       "country": "Uruguay",
       "zone": "south-america",
-      "round": "4",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 2
+      "round": "5",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "py-l1",
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {

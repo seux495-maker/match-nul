@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:16:06Z",
+  "generated_at": "2026-09-05T22:12:07Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,9 +7,9 @@
       "country": "France",
       "zone": "europe",
       "round": "3",
-      "matches_total": 5,
-      "matches_played": 4,
-      "draws": 0
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 1
     },
     {
       "id": "fr-l2",
@@ -17,8 +17,8 @@
       "country": "France",
       "zone": "europe",
       "round": "5",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 4
     },
     {
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 4,
-      "matches_played": 3,
+      "matches_total": 5,
+      "matches_played": 4,
       "draws": 0
     },
     {
@@ -37,9 +37,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 5,
-      "matches_played": 5,
-      "draws": 2
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 3
     },
     {
       "id": "it-l1",
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 4,
-      "matches_played": 3,
+      "matches_total": 5,
+      "matches_played": 4,
       "draws": 0
     },
     {
@@ -57,8 +57,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 5,
-      "matches_played": 2,
+      "matches_total": 6,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -77,9 +77,9 @@
       "country": "England",
       "zone": "europe",
       "round": "5",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 1
+      "matches_total": 11,
+      "matches_played": 11,
+      "draws": 2
     },
     {
       "id": "gr-l1",
@@ -87,8 +87,8 @@
       "country": "Greece",
       "zone": "europe",
       "round": "3",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 1
     },
     {
@@ -97,8 +97,8 @@
       "country": "Turkey",
       "zone": "europe",
       "round": "4",
-      "matches_total": 5,
-      "matches_played": 2,
+      "matches_total": 6,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -107,8 +107,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "5",
-      "matches_total": 3,
-      "matches_played": 3,
+      "matches_total": 5,
+      "matches_played": 5,
       "draws": 1
     },
     {
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "29",
-      "matches_total": 7,
-      "matches_played": 0,
+      "matches_total": 4,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "5",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {

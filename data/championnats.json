@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T22:12:07Z",
+  "generated_at": "2026-09-06T12:14:38Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -117,8 +117,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "5",
-      "matches_total": 4,
-      "matches_played": 4,
+      "matches_total": 5,
+      "matches_played": 5,
       "draws": 0
     },
     {
@@ -126,10 +126,10 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "7",
-      "matches_total": 8,
-      "matches_played": 7,
-      "draws": 2
+      "round": "9",
+      "matches_total": 5,
+      "matches_played": 5,
+      "draws": 3
     },
     {
       "id": "ec-l1",
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "29",
-      "matches_total": 4,
-      "matches_played": 1,
+      "matches_total": 5,
+      "matches_played": 2,
       "draws": 0
     },
     {
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "5",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -156,10 +156,10 @@
       "name": "Copa de Primera",
       "country": "Paraguay",
       "zone": "south-america",
-      "round": "8",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 2
+      "round": "9",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pe-l1",
@@ -167,19 +167,19 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 2,
-      "matches_played": 2,
-      "draws": 0
+      "matches_total": 5,
+      "matches_played": 5,
+      "draws": 1
     },
     {
       "id": "ve-l1",
       "name": "Liga FUTVE",
       "country": "Venezuela",
       "zone": "south-america",
-      "round": "7",
-      "matches_total": 7,
-      "matches_played": 7,
-      "draws": 3
+      "round": "8",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 1
     }
   ]
 }

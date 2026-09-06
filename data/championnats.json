@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:14:38Z",
+  "generated_at": "2026-09-06T15:40:48Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,8 +7,8 @@
       "country": "France",
       "zone": "europe",
       "round": "3",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 1
     },
     {
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 3
     },
     {
@@ -47,9 +47,9 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 5,
-      "matches_played": 4,
-      "draws": 0
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 1
     },
     {
       "id": "it-l2",
@@ -58,8 +58,8 @@
       "zone": "europe",
       "round": "3",
       "matches_total": 6,
-      "matches_played": 3,
-      "draws": 0
+      "matches_played": 6,
+      "draws": 2
     },
     {
       "id": "en-l1",
@@ -67,9 +67,9 @@
       "country": "England",
       "zone": "europe",
       "round": "3",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 5
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 6
     },
     {
       "id": "en-l2",
@@ -77,9 +77,9 @@
       "country": "England",
       "zone": "europe",
       "round": "5",
-      "matches_total": 11,
-      "matches_played": 11,
-      "draws": 2
+      "matches_total": 12,
+      "matches_played": 12,
+      "draws": 3
     },
     {
       "id": "gr-l1",
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "5",
-      "matches_total": 3,
-      "matches_played": 3,
+      "matches_total": 4,
+      "matches_played": 4,
       "draws": 0
     },
     {
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "9",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {

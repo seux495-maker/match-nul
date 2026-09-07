@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:43:16Z",
+  "generated_at": "2026-09-07T19:15:45Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -27,9 +27,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 2
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 3
     },
     {
       "id": "es-l2",
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 3
     },
     {
@@ -87,8 +87,8 @@
       "country": "Greece",
       "zone": "europe",
       "round": "3",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 2
     },
     {
@@ -97,8 +97,8 @@
       "country": "Turkey",
       "zone": "europe",
       "round": "4",
-      "matches_total": 8,
-      "matches_played": 7,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {
@@ -117,8 +117,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "5",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 0
     },
     {

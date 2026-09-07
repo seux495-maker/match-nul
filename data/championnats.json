@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:15:45Z",
+  "generated_at": "2026-09-07T22:13:26Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -17,8 +17,8 @@
       "country": "France",
       "zone": "europe",
       "round": "5",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 4
     },
     {
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 3
     },
     {
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "4",
-      "matches_total": 10,
-      "matches_played": 10,
+      "matches_total": 11,
+      "matches_played": 11,
       "draws": 4
     },
     {
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 3
     },
     {
@@ -57,8 +57,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "3",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 2
     },
     {
@@ -96,10 +96,10 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "4",
+      "round": "5",
       "matches_total": 9,
-      "matches_played": 9,
-      "draws": 1
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "pt-l1",
@@ -107,9 +107,9 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "5",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 2
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 3
     },
     {
       "id": "pt-l2",
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "5",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 2
     },
     {
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "9",
-      "matches_total": 4,
-      "matches_played": 4,
+      "matches_total": 5,
+      "matches_played": 5,
       "draws": 0
     },
     {

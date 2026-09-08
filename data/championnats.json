@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:18:04Z",
+  "generated_at": "2026-09-08T22:13:45Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -76,10 +76,10 @@
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "5",
-      "matches_total": 12,
-      "matches_played": 12,
-      "draws": 3
+      "round": "6",
+      "matches_total": 8,
+      "matches_played": 6,
+      "draws": 2
     },
     {
       "id": "gr-l1",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:17:20Z",
+  "generated_at": "2026-09-09T22:11:29Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -77,9 +77,9 @@
       "country": "England",
       "zone": "europe",
       "round": "6",
-      "matches_total": 8,
-      "matches_played": 6,
-      "draws": 2
+      "matches_total": 10,
+      "matches_played": 9,
+      "draws": 3
     },
     {
       "id": "gr-l1",
@@ -106,10 +106,10 @@
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "5",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 3
+      "round": "3",
+      "matches_total": 8,
+      "matches_played": 8,
+      "draws": 1
     },
     {
       "id": "pt-l2",

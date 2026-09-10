@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:14:33Z",
+  "generated_at": "2026-09-10T22:12:41Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -86,10 +86,10 @@
       "name": "Super League",
       "country": "Greece",
       "zone": "europe",
-      "round": "3",
+      "round": "1",
       "matches_total": 7,
       "matches_played": 7,
-      "draws": 2
+      "draws": 0
     },
     {
       "id": "tr-l1",
@@ -107,8 +107,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "3",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {

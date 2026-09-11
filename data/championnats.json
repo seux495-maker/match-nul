@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:43:52Z",
+  "generated_at": "2026-09-11T19:15:26Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -56,10 +56,10 @@
       "name": "Serie B",
       "country": "Italy",
       "zone": "europe",
-      "round": "3",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
+      "round": "4",
+      "matches_total": 5,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "en-l1",
@@ -96,10 +96,10 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "4",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 1
+      "round": "5",
+      "matches_total": 4,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pt-l1",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:14:35Z",
+  "generated_at": "2026-09-12T12:12:54Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -117,8 +117,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "6",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 1
     },
     {
@@ -126,7 +126,7 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "5",
+      "round": "10",
       "matches_total": 2,
       "matches_played": 2,
       "draws": 1
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "10",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "9",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {

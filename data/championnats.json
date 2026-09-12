@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:41:15Z",
+  "generated_at": "2026-09-12T19:14:42Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,9 +7,9 @@
       "country": "France",
       "zone": "europe",
       "round": "4",
-      "matches_total": 4,
-      "matches_played": 1,
-      "draws": 0
+      "matches_total": 5,
+      "matches_played": 2,
+      "draws": 1
     },
     {
       "id": "fr-l2",
@@ -27,9 +27,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "5",
-      "matches_total": 2,
-      "matches_played": 2,
-      "draws": 0
+      "matches_total": 4,
+      "matches_played": 4,
+      "draws": 1
     },
     {
       "id": "es-l2",
@@ -37,9 +37,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "5",
-      "matches_total": 3,
-      "matches_played": 2,
-      "draws": 0
+      "matches_total": 5,
+      "matches_played": 5,
+      "draws": 1
     },
     {
       "id": "it-l1",
@@ -47,9 +47,9 @@
       "country": "Italy",
       "zone": "europe",
       "round": "4",
-      "matches_total": 3,
-      "matches_played": 2,
-      "draws": 1
+      "matches_total": 4,
+      "matches_played": 3,
+      "draws": 2
     },
     {
       "id": "it-l2",
@@ -57,8 +57,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "4",
-      "matches_total": 7,
-      "matches_played": 6,
+      "matches_total": 8,
+      "matches_played": 7,
       "draws": 2
     },
     {
@@ -66,10 +66,10 @@
       "name": "Premier League",
       "country": "England",
       "zone": "europe",
-      "round": "3",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 6
+      "round": "4",
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 4
     },
     {
       "id": "en-l2",
@@ -77,18 +77,18 @@
       "country": "England",
       "zone": "europe",
       "round": "7",
-      "matches_total": 4,
-      "matches_played": 4,
-      "draws": 1
+      "matches_total": 11,
+      "matches_played": 11,
+      "draws": 2
     },
     {
       "id": "gr-l1",
       "name": "Super League",
       "country": "Greece",
       "zone": "europe",
-      "round": "1",
-      "matches_total": 7,
-      "matches_played": 7,
+      "round": "4",
+      "matches_total": 2,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -97,19 +97,19 @@
       "country": "Turkey",
       "zone": "europe",
       "round": "5",
-      "matches_total": 4,
-      "matches_played": 1,
-      "draws": 0
+      "matches_total": 6,
+      "matches_played": 5,
+      "draws": 1
     },
     {
       "id": "pt-l1",
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "3",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 1
+      "round": "6",
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 0
     },
     {
       "id": "pt-l2",
@@ -146,10 +146,10 @@
       "name": "Liga AUF Uruguaya",
       "country": "Uruguay",
       "zone": "south-america",
-      "round": "5",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 2
+      "round": "6",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "py-l1",
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "9",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     },
     {

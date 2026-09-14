@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:13:19Z",
+  "generated_at": "2026-09-14T12:17:03Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -71,11 +71,12 @@
       "rounds_recorded": [
         1,
         2,
-        3
+        3,
+        4
       ],
-      "matches_played": 30,
-      "draws": 4,
-      "draw_pct": 13.3
+      "matches_played": 37,
+      "draws": 6,
+      "draw_pct": 16.2
     },
     {
       "id": "it-l2",
@@ -290,11 +291,12 @@
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
-      "matches_played": 54,
-      "draws": 12,
-      "draw_pct": 22.2
+      "matches_played": 60,
+      "draws": 13,
+      "draw_pct": 21.7
     },
     {
       "id": "pe-l1",

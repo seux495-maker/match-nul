@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:17:03Z",
+  "generated_at": "2026-09-14T15:46:42Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -47,7 +47,7 @@
       "country": "Italy",
       "zone": "europe",
       "round": "4",
-      "matches_total": 7,
+      "matches_total": 8,
       "matches_played": 7,
       "draws": 2
     },
@@ -170,6 +170,16 @@
       "matches_total": 8,
       "matches_played": 8,
       "draws": 0
+    },
+    {
+      "id": "ve-l1",
+      "name": "Liga FUTVE",
+      "country": "Venezuela",
+      "zone": "south-america",
+      "round": "9",
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 1
     }
   ]
 }

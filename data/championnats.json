@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:13:38Z",
+  "generated_at": "2026-09-15T15:44:39Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -46,10 +46,10 @@
       "name": "Serie A",
       "country": "Italy",
       "zone": "europe",
-      "round": "4",
+      "round": "5",
       "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "it-l2",
@@ -136,10 +136,10 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "30",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 3
+      "round": "1",
+      "matches_total": 3,
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "uy-l1",

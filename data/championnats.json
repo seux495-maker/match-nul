@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-15T19:16:49Z",
+  "generated_at": "2026-09-15T22:13:06Z",
   "leagues": [
     {
       "id": "fr-l1",
       "name": "Ligue 1",
       "country": "France",
       "zone": "europe",
-      "round": "5",
+      "round": "4",
       "matches_total": 9,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 9,
+      "draws": 5
     },
     {
       "id": "fr-l2",
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "6",
-      "matches_total": 4,
-      "matches_played": 2,
+      "matches_total": 6,
+      "matches_played": 4,
       "draws": 1
     },
     {
@@ -76,10 +76,10 @@
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "7",
-      "matches_total": 12,
-      "matches_played": 12,
-      "draws": 2
+      "round": "6",
+      "matches_total": 11,
+      "matches_played": 11,
+      "draws": 4
     },
     {
       "id": "gr-l1",

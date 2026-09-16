@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:13:06Z",
+  "generated_at": "2026-09-16T12:15:39Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -126,9 +126,9 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "10",
-      "matches_total": 10,
-      "matches_played": 10,
+      "round": "3",
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 1
     },
     {
@@ -176,9 +176,9 @@
       "name": "Liga FUTVE",
       "country": "Venezuela",
       "zone": "south-america",
-      "round": "9",
-      "matches_total": 7,
-      "matches_played": 7,
+      "round": "10",
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 1
     }
   ]

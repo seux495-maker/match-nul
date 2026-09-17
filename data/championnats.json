@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:16:44Z",
+  "generated_at": "2026-09-17T22:11:44Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "6",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {

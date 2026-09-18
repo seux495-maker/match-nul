@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:43:45Z",
+  "generated_at": "2026-09-18T19:17:22Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -96,10 +96,10 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "5",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 2
+      "round": "6",
+      "matches_total": 5,
+      "matches_played": 1,
+      "draws": 1
     },
     {
       "id": "pt-l1",

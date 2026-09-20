@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:14:48Z",
+  "generated_at": "2026-09-20T22:11:50Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -10,11 +10,12 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
-      "matches_played": 36,
+      "matches_played": 45,
       "draws": 13,
-      "draw_pct": 36.1
+      "draw_pct": 28.9
     },
     {
       "id": "fr-l2",
@@ -62,11 +63,12 @@
         2,
         3,
         4,
-        5
+        5,
+        6
       ],
-      "matches_played": 55,
-      "draws": 13,
-      "draw_pct": 23.6
+      "matches_played": 66,
+      "draws": 14,
+      "draw_pct": 21.2
     },
     {
       "id": "it-l1",
@@ -77,11 +79,12 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
-      "matches_played": 37,
-      "draws": 6,
-      "draw_pct": 16.2
+      "matches_played": 47,
+      "draws": 9,
+      "draw_pct": 19.1
     },
     {
       "id": "it-l2",
@@ -92,11 +95,12 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
-      "matches_played": 40,
-      "draws": 10,
-      "draw_pct": 25.0
+      "matches_played": 50,
+      "draws": 13,
+      "draw_pct": 26.0
     },
     {
       "id": "en-l1",
@@ -142,10 +146,11 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
-      "matches_played": 21,
-      "draws": 6,
+      "matches_played": 28,
+      "draws": 8,
       "draw_pct": 28.6
     },
     {
@@ -176,11 +181,12 @@
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
-      "matches_played": 43,
-      "draws": 11,
-      "draw_pct": 25.6
+      "matches_played": 52,
+      "draws": 15,
+      "draw_pct": 28.8
     },
     {
       "id": "pt-l2",

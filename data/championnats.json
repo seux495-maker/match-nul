@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:11:50Z",
+  "generated_at": "2026-09-21T12:16:00Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -56,10 +56,10 @@
       "name": "Serie B",
       "country": "Italy",
       "zone": "europe",
-      "round": "5",
+      "round": "6",
       "matches_total": 10,
-      "matches_played": 10,
-      "draws": 3
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "en-l1",
@@ -96,10 +96,10 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "6",
+      "round": "7",
       "matches_total": 9,
-      "matches_played": 9,
-      "draws": 2
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "pt-l1",
@@ -127,9 +127,9 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "11",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 1
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 2
     },
     {
       "id": "ec-l1",
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "1",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {
@@ -147,9 +147,9 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 1
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 2
     },
     {
       "id": "py-l1",
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "11",
-      "matches_total": 5,
-      "matches_played": 5,
+      "matches_total": 6,
+      "matches_played": 6,
       "draws": 1
     },
     {
@@ -167,19 +167,9 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "10",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 1
-    },
-    {
-      "id": "ve-l1",
-      "name": "Liga FUTVE",
-      "country": "Venezuela",
-      "zone": "south-america",
-      "round": "11",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 3
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:14:28Z",
+  "generated_at": "2026-09-22T15:42:32Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -46,10 +46,10 @@
       "name": "Serie A",
       "country": "Italy",
       "zone": "europe",
-      "round": "5",
+      "round": "6",
       "matches_total": 10,
-      "matches_played": 10,
-      "draws": 3
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "it-l2",

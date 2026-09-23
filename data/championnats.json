@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:44:59Z",
+  "generated_at": "2026-09-23T19:17:23Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -146,10 +146,10 @@
       "name": "Liga AUF Uruguaya",
       "country": "Uruguay",
       "zone": "south-america",
-      "round": "7",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 2
+      "round": "1",
+      "matches_total": 1,
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "py-l1",

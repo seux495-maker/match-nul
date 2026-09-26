@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:15:25Z",
+  "generated_at": "2026-09-26T22:12:31Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 0
     },
     {
@@ -157,9 +157,9 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "12",
-      "matches_total": 2,
-      "matches_played": 2,
-      "draws": 1
+      "matches_total": 3,
+      "matches_played": 3,
+      "draws": 2
     },
     {
       "id": "pe-l1",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T19:16:15Z",
+  "generated_at": "2026-09-27T22:13:07Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "7",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 2
     },
     {
@@ -96,10 +96,10 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "7",
+      "round": "6",
       "matches_total": 9,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 9,
+      "draws": 2
     },
     {
       "id": "pt-l1",
@@ -147,9 +147,9 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "8",
-      "matches_total": 5,
-      "matches_played": 5,
-      "draws": 0
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 1
     },
     {
       "id": "py-l1",

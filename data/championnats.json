@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:18:47Z",
+  "generated_at": "2026-09-30T22:12:22Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -166,10 +166,10 @@
       "name": "Liga 1",
       "country": "Peru",
       "zone": "south-america",
-      "round": "9",
+      "round": "10",
       "matches_total": 9,
       "matches_played": 9,
-      "draws": 0
+      "draws": 2
     },
     {
       "id": "ve-l1",

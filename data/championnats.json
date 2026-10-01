@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:12:22Z",
+  "generated_at": "2026-10-01T12:15:43Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -126,10 +126,10 @@
       "name": "Primera A",
       "country": "Colombia",
       "zone": "south-america",
-      "round": "4",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 3
+      "round": "3",
+      "matches_total": 10,
+      "matches_played": 10,
+      "draws": 1
     },
     {
       "id": "ec-l1",
@@ -146,10 +146,10 @@
       "name": "Liga AUF Uruguaya",
       "country": "Uruguay",
       "zone": "south-america",
-      "round": "8",
+      "round": "1",
       "matches_total": 8,
       "matches_played": 8,
-      "draws": 1
+      "draws": 3
     },
     {
       "id": "py-l1",

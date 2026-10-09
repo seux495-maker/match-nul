@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:58:16Z",
+  "generated_at": "2026-10-09T20:15:53Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -16,10 +16,10 @@
       "name": "Ligue 2",
       "country": "France",
       "zone": "europe",
-      "round": "7",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 4
+      "round": "8",
+      "matches_total": 6,
+      "matches_played": 5,
+      "draws": 1
     },
     {
       "id": "es-l1",
@@ -96,29 +96,29 @@
       "name": "Süper Lig",
       "country": "Turkey",
       "zone": "europe",
-      "round": "6",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 2
+      "round": "7",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pt-l1",
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "7",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 4
+      "round": "8",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pt-l2",
       "name": "Liga Portugal 2",
       "country": "Portugal",
       "zone": "europe",
-      "round": "5",
-      "matches_total": 9,
-      "matches_played": 9,
+      "round": "7",
+      "matches_total": 1,
+      "matches_played": 1,
       "draws": 0
     },
     {

@@ -1,4 +1,185 @@
 {
-  "generated_at": "2026-10-10T17:51:03Z",
-  "leagues": []
+  "generated_at": "2026-10-10T19:28:18Z",
+  "leagues": [
+    {
+      "id": "fr-l1",
+      "name": "Ligue 1",
+      "country": "France",
+      "zone": "europe",
+      "round": "6",
+      "matches_total": 5,
+      "matches_played": 2,
+      "draws": 0
+    },
+    {
+      "id": "fr-l2",
+      "name": "Ligue 2",
+      "country": "France",
+      "zone": "europe",
+      "round": "8",
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 2
+    },
+    {
+      "id": "es-l1",
+      "name": "La Liga",
+      "country": "Spain",
+      "zone": "europe",
+      "round": "8",
+      "matches_total": 4,
+      "matches_played": 4,
+      "draws": 2
+    },
+    {
+      "id": "es-l2",
+      "name": "Segunda División",
+      "country": "Spain",
+      "zone": "europe",
+      "round": "9",
+      "matches_total": 2,
+      "matches_played": 2,
+      "draws": 0
+    },
+    {
+      "id": "it-l1",
+      "name": "Serie A",
+      "country": "Italy",
+      "zone": "europe",
+      "round": "6",
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 0
+    },
+    {
+      "id": "it-l2",
+      "name": "Serie B",
+      "country": "Italy",
+      "zone": "europe",
+      "round": "6",
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 2
+    },
+    {
+      "id": "en-l1",
+      "name": "Premier League",
+      "country": "England",
+      "zone": "europe",
+      "round": "6",
+      "matches_total": 7,
+      "matches_played": 6,
+      "draws": 2
+    },
+    {
+      "id": "en-l2",
+      "name": "Championship",
+      "country": "England",
+      "zone": "europe",
+      "round": "9",
+      "matches_total": 11,
+      "matches_played": 11,
+      "draws": 3
+    },
+    {
+      "id": "gr-l1",
+      "name": "Super League",
+      "country": "Greece",
+      "zone": "europe",
+      "round": "6",
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 0
+    },
+    {
+      "id": "tr-l1",
+      "name": "Süper Lig",
+      "country": "Turkey",
+      "zone": "europe",
+      "round": "7",
+      "matches_total": 5,
+      "matches_played": 5,
+      "draws": 2
+    },
+    {
+      "id": "pt-l1",
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "zone": "europe",
+      "round": "8",
+      "matches_total": 3,
+      "matches_played": 3,
+      "draws": 0
+    },
+    {
+      "id": "pt-l2",
+      "name": "Liga Portugal 2",
+      "country": "Portugal",
+      "zone": "europe",
+      "round": "7",
+      "matches_total": 4,
+      "matches_played": 4,
+      "draws": 0
+    },
+    {
+      "id": "co-l1",
+      "name": "Primera A",
+      "country": "Colombia",
+      "zone": "south-america",
+      "round": "14",
+      "matches_total": 3,
+      "matches_played": 3,
+      "draws": 2
+    },
+    {
+      "id": "ec-l1",
+      "name": "LigaPro",
+      "country": "Ecuador",
+      "zone": "south-america",
+      "round": "2",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
+    },
+    {
+      "id": "uy-l1",
+      "name": "Liga AUF Uruguaya",
+      "country": "Uruguay",
+      "zone": "south-america",
+      "round": "10",
+      "matches_total": 3,
+      "matches_played": 3,
+      "draws": 1
+    },
+    {
+      "id": "py-l1",
+      "name": "Copa de Primera",
+      "country": "Paraguay",
+      "zone": "south-america",
+      "round": "13",
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 2
+    },
+    {
+      "id": "pe-l1",
+      "name": "Liga 1",
+      "country": "Peru",
+      "zone": "south-america",
+      "round": "11",
+      "matches_total": 3,
+      "matches_played": 3,
+      "draws": 1
+    },
+    {
+      "id": "ve-l1",
+      "name": "Liga FUTVE",
+      "country": "Venezuela",
+      "zone": "south-america",
+      "round": "11",
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 4
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T22:46:48Z",
+  "generated_at": "2026-10-12T01:01:34Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -127,8 +127,8 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "14",
-      "matches_total": 5,
-      "matches_played": 5,
+      "matches_total": 6,
+      "matches_played": 6,
       "draws": 4
     },
     {
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "2",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "10",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 2
     },
     {
@@ -157,9 +157,9 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "14",
-      "matches_total": 3,
-      "matches_played": 3,
-      "draws": 2
+      "matches_total": 4,
+      "matches_played": 4,
+      "draws": 3
     },
     {
       "id": "pe-l1",
@@ -177,8 +177,8 @@
       "country": "Venezuela",
       "zone": "south-america",
       "round": "12",
-      "matches_total": 5,
-      "matches_played": 5,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 1
     }
   ]

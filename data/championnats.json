@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:01:34Z",
+  "generated_at": "2026-10-12T20:54:33Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "9",
-      "matches_total": 7,
-      "matches_played": 7,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 0
     },
     {
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "6",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 3
     },
     {
@@ -87,8 +87,8 @@
       "country": "Greece",
       "zone": "europe",
       "round": "6",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 0
     },
     {
@@ -97,8 +97,8 @@
       "country": "Turkey",
       "zone": "europe",
       "round": "7",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 3
     },
     {
@@ -117,8 +117,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "7",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {
@@ -127,8 +127,8 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "14",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 8,
+      "matches_played": 8,
       "draws": 4
     },
     {
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "11",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 4
     },
     {

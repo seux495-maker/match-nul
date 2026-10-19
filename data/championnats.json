@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:42:45Z",
+  "generated_at": "2026-10-19T22:52:53Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -17,8 +17,8 @@
       "country": "France",
       "zone": "europe",
       "round": "9",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {
@@ -27,9 +27,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "9",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 3
+      "matches_total": 10,
+      "matches_played": 10,
+      "draws": 4
     },
     {
       "id": "es-l2",
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "7",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 0
     },
     {
@@ -67,8 +67,8 @@
       "country": "England",
       "zone": "europe",
       "round": "7",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 1
     },
     {
@@ -106,10 +106,10 @@
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "8",
+      "round": "2",
       "matches_total": 9,
       "matches_played": 9,
-      "draws": 0
+      "draws": 1
     },
     {
       "id": "pt-l2",

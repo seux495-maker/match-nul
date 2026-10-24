@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:59:01Z",
+  "generated_at": "2026-10-24T00:17:41Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -106,10 +106,10 @@
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "2",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 1
+      "round": "9",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pt-l2",
@@ -136,10 +136,10 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "3",
-      "matches_total": 3,
-      "matches_played": 3,
-      "draws": 2
+      "round": "4",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 1
     },
     {
       "id": "uy-l1",
@@ -167,9 +167,9 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "13",
-      "matches_total": 1,
-      "matches_played": 1,
-      "draws": 0
+      "matches_total": 2,
+      "matches_played": 2,
+      "draws": 1
     },
     {
       "id": "ve-l1",

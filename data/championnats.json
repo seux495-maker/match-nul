@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:29:25Z",
+  "generated_at": "2026-10-25T00:01:50Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -107,8 +107,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "9",
-      "matches_total": 4,
-      "matches_played": 3,
+      "matches_total": 5,
+      "matches_played": 4,
       "draws": 0
     },
     {
@@ -137,8 +137,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "4",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 2,
+      "matches_played": 2,
       "draws": 1
     },
     {
@@ -147,8 +147,8 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "12",
-      "matches_total": 3,
-      "matches_played": 3,
+      "matches_total": 4,
+      "matches_played": 4,
       "draws": 2
     },
     {
@@ -157,8 +157,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "16",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -167,19 +167,9 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "13",
-      "matches_total": 3,
-      "matches_played": 3,
+      "matches_total": 4,
+      "matches_played": 4,
       "draws": 1
-    },
-    {
-      "id": "ve-l1",
-      "name": "Liga FUTVE",
-      "country": "Venezuela",
-      "zone": "south-america",
-      "round": "13",
-      "matches_total": 7,
-      "matches_played": 7,
-      "draws": 4
     }
   ]
 }

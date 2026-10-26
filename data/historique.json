@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T23:50:57Z",
+  "generated_at": "2026-10-26T18:13:29Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -331,11 +331,12 @@
         8,
         9,
         10,
-        11
+        11,
+        12
       ],
-      "matches_played": 58,
-      "draws": 13,
-      "draw_pct": 22.4
+      "matches_played": 66,
+      "draws": 15,
+      "draw_pct": 22.7
     },
     {
       "id": "py-l1",
@@ -357,11 +358,12 @@
         12,
         13,
         14,
-        15
+        15,
+        16
       ],
-      "matches_played": 90,
-      "draws": 23,
-      "draw_pct": 25.6
+      "matches_played": 96,
+      "draws": 24,
+      "draw_pct": 25.0
     },
     {
       "id": "pe-l1",
@@ -380,11 +382,12 @@
         9,
         10,
         11,
-        12
+        12,
+        13
       ],
-      "matches_played": 99,
-      "draws": 20,
-      "draw_pct": 20.2
+      "matches_played": 108,
+      "draws": 21,
+      "draw_pct": 19.4
     },
     {
       "id": "ve-l1",

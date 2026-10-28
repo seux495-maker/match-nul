@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:53:34Z",
+  "generated_at": "2026-10-28T20:29:48Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -47,9 +47,9 @@
       "country": "Italy",
       "zone": "europe",
       "round": "9",
-      "matches_total": 6,
-      "matches_played": 3,
-      "draws": 0
+      "matches_total": 7,
+      "matches_played": 6,
+      "draws": 1
     },
     {
       "id": "it-l2",
@@ -57,9 +57,9 @@
       "country": "Italy",
       "zone": "europe",
       "round": "9",
-      "matches_total": 8,
-      "matches_played": 7,
-      "draws": 2
+      "matches_total": 9,
+      "matches_played": 8,
+      "draws": 3
     },
     {
       "id": "en-l1",
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "14",
-      "matches_total": 1,
-      "matches_played": 1,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:24:23Z",
+  "generated_at": "2026-11-02T23:12:46Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,8 +7,8 @@
       "country": "France",
       "zone": "europe",
       "round": "9",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 0
     },
     {
@@ -17,8 +17,8 @@
       "country": "France",
       "zone": "europe",
       "round": "11",
-      "matches_total": 8,
-      "matches_played": 7,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "11",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 0
     },
     {
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "12",
-      "matches_total": 10,
-      "matches_played": 10,
+      "matches_total": 11,
+      "matches_played": 11,
       "draws": 4
     },
     {
@@ -47,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "10",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 0
     },
     {
@@ -67,8 +67,8 @@
       "country": "England",
       "zone": "europe",
       "round": "9",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 2
     },
     {
@@ -107,9 +107,9 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "10",
-      "matches_total": 8,
-      "matches_played": 7,
-      "draws": 0
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 1
     },
     {
       "id": "pt-l2",
@@ -167,8 +167,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "15",
-      "matches_total": 6,
-      "matches_played": 6,
+      "matches_total": 7,
+      "matches_played": 7,
       "draws": 1
     }
   ]

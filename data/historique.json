@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:56:29Z",
+  "generated_at": "2026-11-09T23:52:12Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -262,11 +262,12 @@
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
-      "matches_played": 73,
-      "draws": 15,
-      "draw_pct": 20.5
+      "matches_played": 82,
+      "draws": 19,
+      "draw_pct": 23.2
     },
     {
       "id": "co-l1",

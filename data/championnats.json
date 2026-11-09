@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:56:29Z",
+  "generated_at": "2026-11-09T23:52:12Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -117,8 +117,8 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "10",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 4
     },
     {
@@ -169,7 +169,7 @@
       "round": "16",
       "matches_total": 9,
       "matches_played": 9,
-      "draws": 4
+      "draws": 5
     }
   ]
 }

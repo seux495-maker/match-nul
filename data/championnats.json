@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T01:59:43Z",
+  "generated_at": "2026-11-10T03:59:36Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -127,8 +127,8 @@
       "country": "Colombia",
       "zone": "south-america",
       "round": "18",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 1
     },
     {

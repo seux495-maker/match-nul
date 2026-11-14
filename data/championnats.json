@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:33:26Z",
+  "generated_at": "2026-11-14T00:18:57Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -36,10 +36,10 @@
       "name": "Segunda División",
       "country": "Spain",
       "zone": "europe",
-      "round": "13",
-      "matches_total": 10,
-      "matches_played": 8,
-      "draws": 1
+      "round": "14",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "it-l1",

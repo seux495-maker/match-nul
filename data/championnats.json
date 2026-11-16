@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T21:40:08Z",
+  "generated_at": "2026-11-16T23:52:07Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -167,9 +167,9 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "17",
-      "matches_total": 5,
-      "matches_played": 3,
-      "draws": 2
+      "matches_total": 4,
+      "matches_played": 0,
+      "draws": 0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:23:25Z",
+  "generated_at": "2026-11-16T01:37:40Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -76,10 +76,10 @@
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "16",
+      "round": "15",
       "matches_total": 12,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 12,
+      "draws": 2
     },
     {
       "id": "gr-l1",
@@ -147,9 +147,9 @@
       "country": "Uruguay",
       "zone": "south-america",
       "round": "14",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 3
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 4
     },
     {
       "id": "py-l1",

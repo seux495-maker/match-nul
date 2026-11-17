@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:30:42Z",
+  "generated_at": "2026-11-17T23:07:09Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -86,10 +86,10 @@
       "name": "Super League",
       "country": "Greece",
       "zone": "europe",
-      "round": "7",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "round": "10",
+      "matches_total": 7,
+      "matches_played": 7,
+      "draws": 3
     },
     {
       "id": "tr-l1",
@@ -122,6 +122,16 @@
       "draws": 2
     },
     {
+      "id": "co-l1",
+      "name": "Primera A",
+      "country": "Colombia",
+      "zone": "south-america",
+      "round": "19",
+      "matches_total": 10,
+      "matches_played": 10,
+      "draws": 3
+    },
+    {
       "id": "ec-l1",
       "name": "LigaPro",
       "country": "Ecuador",
@@ -136,10 +146,10 @@
       "name": "Liga AUF Uruguaya",
       "country": "Uruguay",
       "zone": "south-america",
-      "round": "15",
+      "round": "14",
       "matches_total": 8,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 8,
+      "draws": 4
     },
     {
       "id": "py-l1",

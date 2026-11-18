@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:22:52Z",
+  "generated_at": "2026-11-18T19:58:52Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -26,20 +26,20 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "round": "8",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "round": "12",
+      "matches_total": 10,
+      "matches_played": 10,
+      "draws": 4
     },
     {
       "id": "es-l2",
       "name": "Segunda División",
       "country": "Spain",
       "zone": "europe",
-      "round": "13",
-      "matches_total": 3,
-      "matches_played": 0,
-      "draws": 0
+      "round": "14",
+      "matches_total": 11,
+      "matches_played": 11,
+      "draws": 3
     },
     {
       "id": "it-l1",

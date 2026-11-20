@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:52:50Z",
+  "generated_at": "2026-11-20T19:38:31Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -136,10 +136,10 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "6",
-      "matches_total": 3,
-      "matches_played": 3,
-      "draws": 2
+      "round": "7",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "uy-l1",

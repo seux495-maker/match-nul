@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:22:15Z",
+  "generated_at": "2026-11-21T00:46:13Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,8 +7,8 @@
       "country": "France",
       "zone": "europe",
       "round": "11",
-      "matches_total": 4,
-      "matches_played": 1,
+      "matches_total": 8,
+      "matches_played": 0,
       "draws": 0
     },
     {
@@ -19,16 +19,6 @@
       "round": "13",
       "matches_total": 6,
       "matches_played": 5,
-      "draws": 0
-    },
-    {
-      "id": "es-l1",
-      "name": "La Liga",
-      "country": "Spain",
-      "zone": "europe",
-      "round": "13",
-      "matches_total": 1,
-      "matches_played": 1,
       "draws": 0
     },
     {
@@ -46,10 +36,10 @@
       "name": "Serie A",
       "country": "Italy",
       "zone": "europe",
-      "round": "12",
+      "round": "11",
       "matches_total": 10,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 10,
+      "draws": 3
     },
     {
       "id": "it-l2",
@@ -57,8 +47,8 @@
       "country": "Italy",
       "zone": "europe",
       "round": "12",
-      "matches_total": 9,
-      "matches_played": 0,
+      "matches_total": 5,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -107,9 +97,9 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "11",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 1
+      "matches_total": 1,
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "pt-l2",
@@ -122,6 +112,16 @@
       "draws": 2
     },
     {
+      "id": "co-l1",
+      "name": "Primera A",
+      "country": "Colombia",
+      "zone": "south-america",
+      "round": "19",
+      "matches_total": 10,
+      "matches_played": 10,
+      "draws": 3
+    },
+    {
       "id": "ec-l1",
       "name": "LigaPro",
       "country": "Ecuador",
@@ -132,24 +132,14 @@
       "draws": 0
     },
     {
-      "id": "uy-l1",
-      "name": "Liga AUF Uruguaya",
-      "country": "Uruguay",
-      "zone": "south-america",
-      "round": "15",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 1
-    },
-    {
       "id": "py-l1",
       "name": "Copa de Primera",
       "country": "Paraguay",
       "zone": "south-america",
-      "round": "19",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 2
+      "round": "20",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pe-l1",

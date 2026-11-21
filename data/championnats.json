@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:46:13Z",
+  "generated_at": "2026-11-21T03:04:11Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,8 +7,8 @@
       "country": "France",
       "zone": "europe",
       "round": "11",
-      "matches_total": 8,
-      "matches_played": 0,
+      "matches_total": 1,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -17,8 +17,18 @@
       "country": "France",
       "zone": "europe",
       "round": "13",
-      "matches_total": 6,
-      "matches_played": 5,
+      "matches_total": 4,
+      "matches_played": 0,
+      "draws": 0
+    },
+    {
+      "id": "es-l1",
+      "name": "La Liga",
+      "country": "Spain",
+      "zone": "europe",
+      "round": "13",
+      "matches_total": 1,
+      "matches_played": 1,
       "draws": 0
     },
     {
@@ -50,16 +60,6 @@
       "matches_total": 5,
       "matches_played": 1,
       "draws": 0
-    },
-    {
-      "id": "en-l1",
-      "name": "Premier League",
-      "country": "England",
-      "zone": "europe",
-      "round": "10",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
     },
     {
       "id": "en-l2",
@@ -97,9 +97,9 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "11",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "matches_total": 8,
+      "matches_played": 8,
+      "draws": 1
     },
     {
       "id": "pt-l2",
@@ -112,23 +112,13 @@
       "draws": 2
     },
     {
-      "id": "co-l1",
-      "name": "Primera A",
-      "country": "Colombia",
-      "zone": "south-america",
-      "round": "19",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 3
-    },
-    {
       "id": "ec-l1",
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "7",
+      "round": "1",
       "matches_total": 1,
-      "matches_played": 1,
+      "matches_played": 0,
       "draws": 0
     },
     {
@@ -137,9 +127,9 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "20",
-      "matches_total": 2,
-      "matches_played": 1,
-      "draws": 0
+      "matches_total": 3,
+      "matches_played": 2,
+      "draws": 1
     },
     {
       "id": "pe-l1",

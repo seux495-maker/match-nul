@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:03:34Z",
+  "generated_at": "2026-11-22T21:13:23Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -26,10 +26,10 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "round": "8",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "round": "13",
+      "matches_total": 8,
+      "matches_played": 8,
+      "draws": 1
     },
     {
       "id": "es-l2",
@@ -37,9 +37,9 @@
       "country": "Spain",
       "zone": "europe",
       "round": "15",
-      "matches_total": 7,
-      "matches_played": 7,
-      "draws": 2
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 3
     },
     {
       "id": "it-l1",
@@ -86,10 +86,10 @@
       "name": "Super League",
       "country": "Greece",
       "zone": "europe",
-      "round": "11",
-      "matches_total": 4,
-      "matches_played": 4,
-      "draws": 1
+      "round": "7",
+      "matches_total": 1,
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "tr-l1",

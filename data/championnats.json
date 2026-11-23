@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:13:23Z",
+  "generated_at": "2026-11-23T00:09:34Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -7,8 +7,8 @@
       "country": "France",
       "zone": "europe",
       "round": "11",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 3
     },
     {
@@ -27,8 +27,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "13",
-      "matches_total": 8,
-      "matches_played": 8,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 1
     },
     {
@@ -37,8 +37,8 @@
       "country": "Spain",
       "zone": "europe",
       "round": "15",
-      "matches_total": 9,
-      "matches_played": 9,
+      "matches_total": 10,
+      "matches_played": 10,
       "draws": 3
     },
     {
@@ -47,9 +47,9 @@
       "country": "Italy",
       "zone": "europe",
       "round": "12",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 1
+      "matches_total": 9,
+      "matches_played": 9,
+      "draws": 2
     },
     {
       "id": "it-l2",
@@ -86,10 +86,10 @@
       "name": "Super League",
       "country": "Greece",
       "zone": "europe",
-      "round": "7",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "round": "11",
+      "matches_total": 6,
+      "matches_played": 6,
+      "draws": 1
     },
     {
       "id": "tr-l1",
@@ -127,8 +127,8 @@
       "country": "Ecuador",
       "zone": "south-america",
       "round": "7",
-      "matches_total": 2,
-      "matches_played": 2,
+      "matches_total": 3,
+      "matches_played": 3,
       "draws": 0
     },
     {
@@ -137,8 +137,8 @@
       "country": "Paraguay",
       "zone": "south-america",
       "round": "20",
-      "matches_total": 3,
-      "matches_played": 2,
+      "matches_total": 4,
+      "matches_played": 4,
       "draws": 1
     },
     {
@@ -147,8 +147,8 @@
       "country": "Peru",
       "zone": "south-america",
       "round": "17",
-      "matches_total": 8,
-      "matches_played": 7,
+      "matches_total": 9,
+      "matches_played": 9,
       "draws": 4
     }
   ]

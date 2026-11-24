@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:17:23Z",
+  "generated_at": "2026-11-24T05:47:32Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -56,10 +56,10 @@
       "name": "Serie B",
       "country": "Italy",
       "zone": "europe",
-      "round": "13",
+      "round": "12",
       "matches_total": 10,
-      "matches_played": 0,
-      "draws": 0
+      "matches_played": 10,
+      "draws": 2
     },
     {
       "id": "en-l1",

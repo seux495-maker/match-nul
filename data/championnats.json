@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:47:32Z",
+  "generated_at": "2026-11-24T21:57:23Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -56,10 +56,10 @@
       "name": "Serie B",
       "country": "Italy",
       "zone": "europe",
-      "round": "12",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
+      "round": "13",
+      "matches_total": 8,
+      "matches_played": 6,
+      "draws": 0
     },
     {
       "id": "en-l1",
@@ -76,10 +76,10 @@
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "16",
-      "matches_total": 12,
-      "matches_played": 12,
-      "draws": 4
+      "round": "17",
+      "matches_total": 9,
+      "matches_played": 7,
+      "draws": 3
     },
     {
       "id": "gr-l1",

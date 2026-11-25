@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:57:23Z",
+  "generated_at": "2026-11-25T00:04:01Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -66,10 +66,10 @@
       "name": "Premier League",
       "country": "England",
       "zone": "europe",
-      "round": "11",
+      "round": "12",
       "matches_total": 10,
-      "matches_played": 10,
-      "draws": 3
+      "matches_played": 0,
+      "draws": 0
     },
     {
       "id": "en-l2",
@@ -77,8 +77,8 @@
       "country": "England",
       "zone": "europe",
       "round": "17",
-      "matches_total": 9,
-      "matches_played": 7,
+      "matches_total": 10,
+      "matches_played": 8,
       "draws": 3
     },
     {

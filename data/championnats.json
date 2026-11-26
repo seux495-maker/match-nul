@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T02:09:46Z",
+  "generated_at": "2026-11-26T04:00:36Z",
   "leagues": [
     {
       "id": "fr-l1",
@@ -107,9 +107,9 @@
       "country": "Portugal",
       "zone": "europe",
       "round": "11",
-      "matches_total": 1,
-      "matches_played": 0,
-      "draws": 0
+      "matches_total": 8,
+      "matches_played": 8,
+      "draws": 1
     },
     {
       "id": "pt-l2",
@@ -126,10 +126,10 @@
       "name": "LigaPro",
       "country": "Ecuador",
       "zone": "south-america",
-      "round": "7",
+      "round": "1",
       "matches_total": 3,
       "matches_played": 3,
-      "draws": 0
+      "draws": 1
     },
     {
       "id": "py-l1",

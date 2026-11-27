@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-27T20:42:22Z",
+  "generated_at": "2026-11-27T23:41:01Z",
   "leagues": [
     {
       "id": "fr-l1",
       "name": "Ligue 1",
       "country": "France",
       "zone": "europe",
-      "round": "11",
-      "matches_total": 9,
-      "matches_played": 9,
-      "draws": 3
+      "round": "12",
+      "matches_total": 4,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "fr-l2",
@@ -26,30 +26,30 @@
       "name": "La Liga",
       "country": "Spain",
       "zone": "europe",
-      "round": "13",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
+      "round": "14",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "es-l2",
       "name": "Segunda División",
       "country": "Spain",
       "zone": "europe",
-      "round": "15",
-      "matches_total": 11,
-      "matches_played": 11,
-      "draws": 3
+      "round": "16",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 1
     },
     {
       "id": "it-l1",
       "name": "Serie A",
       "country": "Italy",
       "zone": "europe",
-      "round": "12",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 2
+      "round": "13",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 1
     },
     {
       "id": "it-l2",
@@ -66,20 +66,20 @@
       "name": "Premier League",
       "country": "England",
       "zone": "europe",
-      "round": "11",
-      "matches_total": 10,
-      "matches_played": 10,
-      "draws": 3
+      "round": "12",
+      "matches_total": 5,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "en-l2",
       "name": "Championship",
       "country": "England",
       "zone": "europe",
-      "round": "17",
-      "matches_total": 12,
-      "matches_played": 12,
-      "draws": 3
+      "round": "18",
+      "matches_total": 9,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "gr-l1",
@@ -106,10 +106,10 @@
       "name": "Primeira Liga",
       "country": "Portugal",
       "zone": "europe",
-      "round": "11",
-      "matches_total": 8,
-      "matches_played": 8,
-      "draws": 1
+      "round": "12",
+      "matches_total": 1,
+      "matches_played": 1,
+      "draws": 0
     },
     {
       "id": "pt-l2",
@@ -136,10 +136,10 @@
       "name": "Copa de Primera",
       "country": "Paraguay",
       "zone": "south-america",
-      "round": "20",
-      "matches_total": 6,
-      "matches_played": 6,
-      "draws": 2
+      "round": "21",
+      "matches_total": 2,
+      "matches_played": 1,
+      "draws": 0
     }
   ]
 }
